@@ -1,0 +1,182 @@
+@import url("content.css");
+
+body {
+    
+    color: #EEEEEE;  
+	margin: 0; padding: 0; 
+	background-image: url(../img/back.jpg); 
+	background-position:center; 
+	background-attachment:fixed; 
+	background-repeat:no-repeat;
+	}
+
+div.wrapper { 
+    width:1000px; 
+    margin:0 auto; 
+    padding:0;   
+}  
+
+
+
+#header {
+    height:                180px;
+    background:              url(../img/header.png) ;  
+}
+
+#banner {
+	float:right;
+	padding-right:90px;
+	padding-top: 4px;
+	width:468px;
+	height:60px;	
+}
+
+
+/* --- Logo --- */
+#header img.logo {
+	float:	left; 
+	padding-left:40px;
+	padding-top:10px;
+} 
+
+
+
+
+
+td#leftcolumn {width: 170px;  }
+td#leftcolumn th {background-color: #9ACD32; color: #333333; vertical-align: middle;}
+td#leftcolumn div.blockTitle { 
+	text-align:center; 
+	padding: 6px; 
+	background-color: #333333; 
+	color: #333333; 
+	font-weight: bold; 
+	background-image: url(../img/menu.jpg);	
+}
+
+td#leftcolumn div.blockContent {padding: 3px; line-height: 120%;  border: 1px solid #E9E7E3;}
+
+td#rightcolumn {width: 170px;  }
+td#rightcolumn th {
+	background-color: #9ACD32; 
+	color: #333333; 
+	vertical-align: middle;
+}
+td#rightcolumn div.blockTitle {
+	text-align:center; 
+	padding: 6px; 
+	background-color: #333333; 
+	color: #333333; 
+	font-weight: bold; 
+	background-image: url(../img/menu.jpg);	
+}
+
+td#rightcolumn div.blockContent {
+	padding: 3px; 
+	line-height: 120%; 
+	border: 1px solid silver;
+}
+
+#centercolumn {font-size: 1em; padding: 0 0 0 1px;}
+#centercolumn th {
+	background-color: #2A75C5; 
+	color: #fff; 
+	vertical-align: middle;
+}
+
+#centerCcolumn, #bottomCcolumn {padding: 0 3px 1px 3px;}
+#centerCcolumn .blockTitle, #bottomCcolumn .blockTitle {
+	padding: 3px; color: #fff; 
+	font-weight: bold; 
+	margin-top: 0; margin-right: 0;  margin-left: 0; 
+	font-size:1.1em;
+}
+
+td#centerLcolumn {width: 50%; padding: 0px 3px 0px 0px;}
+td#centerLcolumn legend.blockTitle {
+	padding: 3px; 
+	color: #9ACD32; 
+	font-weight: bold; margin-top: 0px;}
+td#centerLcolumn div.blockContent { 
+	padding: 3px; 
+	margin-left: 3px; 
+	margin-right: 2px; 
+	margin-bottom: 2px; 
+	line-height: 120%;
+}
+
+td#centerRcolumn {width: 50%; padding: 0px 3px 0px 0px;}
+td#centerRcolumn legend.blockTitle {
+	padding: 3px; 
+	color: #9ACD32; 
+	font-weight: bold; 
+	margin-top: 0px;
+}
+td#centerRcolumn div.blockContent { 
+	padding: 3px; 
+	margin-left: 2px; 
+	margin-right: 3px; 
+	margin-bottom: 2px; 
+	line-height: 120%;}
+
+
+
+
+
+#footerbar { 
+    background-image: url(../img/menu.jpg);
+	font-size:1em; 
+	height : 25px; 
+	color:#2F4F4F;
+	font-weight: bold;	
+}
+
+#footerbar td { vertical-align : middle; text-align:center;  }
+
+
+
+
+
+td#mainmenu a {background-color: #333333; display: block; margin: 0; padding: 4px; }
+td#mainmenu a:hover {background-color: #9ACD32; color: #333333;}
+td#mainmenu a.menuTop {
+	padding-left: 3px; 
+	border-top: 1px solid silver; border-right: 1px solid #E9E7E3; border-bottom: 1px solid #E9E7E3; border-left: 1px solid silver;
+}
+td#mainmenu a.menuMain {
+	padding-left: 3px; 
+	border-right: 1px solid #E9E7E3; border-bottom: 1px solid #E9E7E3; border-left: 1px solid silver;
+}
+td#mainmenu a.menuSub {
+	padding-left: 14px; 
+	border-right: 1px solid #E9E7E3; border-bottom: 1px solid #E9E7E3; border-left: 1px solid silver;
+}
+
+td#usermenu a {
+	font-size:.9em;  
+	background-color: #333333; 
+	display: block; 
+	margin: 0; padding: 4px; 
+	border-right: 1px solid #E9E7E3; border-bottom: 1px solid #E9E7E3; border-left: 1px solid silver;
+}
+td#usermenu a:hover {background-color: #9ACD32; color: #333333;}
+td#usermenu a.menuTop {border-top: 1px solid silver;}
+td#usermenu a.highlight {background-color: #9ACD32;}
+
+
+#menu {
+	   
+       width:1000px padding:0; margin:0; list-style:none; 
+       height:30px; position:relative; z-index:500; font-family:arial, verdana, sans-serif;
+	   background:#000;}
+#menu li {float:left; margin-right:1px;}
+#menu li a {display:block; float:left; 
+	height:30px; line-height:30px; 
+	background: url(../img/sub.jpg) repeat-x; color:#fff; 
+	text-decoration:none; font-size:13px; font-weight:bold; padding:0 30px 0 20px;}
+#menu table {border-collapse:collapse; width:0; height:0; position:absolute; top:0; left:0;}
+#menu li a:hover {z-index:200; position:relative;color:#000; background:#ADFF2F;}
+
+
+
+

@@ -1,0 +1,102 @@
+table {width: 100%; margin: 5; padding: 5; font-size: small}
+table td {padding: 0; border-width: 0; vertical-align: top; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+a {color: #9ACD32; text-decoration: none; font-weight: bold; background-color: transparent; font-family: Trebuchet MS,Arial,Helvetica,sans-serif;}
+a:hover {color: #eeeeee;}
+
+h1 {font-size:1.4em;}
+h2 {font-size:1.3em;}
+h3 {font-size:1.2em;}
+h4 {font-size:1.1em;}
+h5 {font-size:1em;}
+ul { margin: 2px; padding: 2px; list-style: disc inside; text-align: left;}
+ol { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; color: #2A75C5;}
+
+
+th {background-color: #9ACD32; color: #333333; 
+   padding : 2px; 
+   vertical-align : middle; 
+}
+
+
+.outer {border: 1px solid silver;}
+.head {background-color: #555555; padding: 5px; font-weight: bold;}
+.even {background-color: #333333; padding: 5px; color: #eeeeee;}
+.odd {background-color: #777777; padding: 5px; color: #eeeeee;}
+.foot {background-color: #555555; padding: 5px; font-weight: bold;}
+tr.even td {background-color: #333333; padding: 5px; color: #eeeeee;}
+tr.odd td {background-color: #777777; padding: 5px; color: #eeeeee;}
+
+div.errorMsg {color: #990000; text-align: center; border: 1px solid #cccccc; font-weight: bold; padding: 10px;}
+div.confirmMsg {color: #eeeeee; text-align: center; border: 1px solid #cccccc; font-weight: bold; padding: 10px;}
+div.resultMsg {color: #eeeeee; text-align: center; border: 1px solid #cccccc; font-weight: bold; padding: 10px;}
+
+div.xoopsCode { background: #333333; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #333333; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #eeeeee; font-weight:bold; border: 1px solid #eeeeee; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #9ACD32; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+
+
+
+.item {border: 1px solid #E9E7E3;}
+.itemHead {padding: 3px; background-color: #9ACD32; color: #333333;}
+.itemInfo {text-align: right; padding: 3px; background-color: #333333; border-bottom: 1px solid #E9E7E3;}
+.itemTitle a {font-size: 120%; font-weight: bold;  color: #333333; background-color: transparent;}
+.itemPoster {font-size: 90%; font-style:italic;}
+.itemPostDate {font-size: 90%; font-style:italic;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemFoot {text-align: right; padding: 3px; background-color: #333333; border-top: 1px solid #E9E7E3;}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+
+
+
+
+input.formButton {}
+button, input[type="submit"], input[type="button"] { 
+background: 				url("../img/sub.jpg") repeat-x bottom;
+ padding : 4px;  color :#2F4F4F;  font-size : .9em;  font-weight : bold; border:none;   
+ } 
+ 
+
+input[type="submit"]:hover, .ui-state-vert:hover, #xo-header   li :hover,  #xo-header  .hover  {
+opacity: .40; filter:Alpha(Opacity=40);
+}
+
+
+input[type="text"], input[type="password"],  input[type=checkbox], input[type=file], textarea{
+border: 1px solid #9ACD32; 
+background: #fff; 
+color: #000;
+outline: none;
+padding : 2px;
+}
+
+
+
+
+
+body.mceContentBody {
+    margin:                 0;
+    padding:                0;
+    background-color:       #fff;
+    background-image:       none;
+    color:                  #000;
+}
